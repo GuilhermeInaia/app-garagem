@@ -1,5 +1,27 @@
 # Getting Started with Create React App
 
+export default function Dashboard(){
+    return(
+        <>
+            Bem Vindos
+            <br/>
+            <Button>Clique Aqui</Button>
+            <br/>
+            <Button color="secondary" variant="contained">
+            <Favorite color="danger" variant="outlined"/> Clique aqui também
+            </Button>
+            <br/>
+            <Button color="success" variant="outlined">
+                Clique aqui também
+            </Button>
+
+        </>
+    )
+}
+## Adicionar 
+https://mui.com/pt/
+npm install @mui/icons-material
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
