@@ -4,6 +4,8 @@ import AddVeiculos from "./pages/AddVeiculos";
 import Dashboard from "./pages/Dashboard";
 import DetalhesVeiculos from "./pages/DetalhesVeiculos";
 import ListarVeiculos from "./pages/ListarVeiculos";
+import Login from "./pages/Login";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -17,6 +19,9 @@ export default function App() {
           <Route path="/listar" element={<ListarVeiculos/>} />
           <Route path="/novo" element={<AddVeiculos/>} />
           <Route path="/detalhes" element={<DetalhesVeiculos/>} />
+          <Route path="/entrar" element={<Login/>} />
+
+          <Route path="/*" element={<NotFound/>} />
         </Routes>
       </BrowserRouter>
 
